@@ -20,7 +20,7 @@ local function bind(object, callback, ...)
 end
 
 function BoxHelper:OnInitialize()
-    self.enableDebug=true
+    self.enableDebug=false
 
     self.triggerMessages = {
         notInFront = "Target needs to be in front of you."
