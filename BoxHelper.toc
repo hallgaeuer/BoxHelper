@@ -1,0 +1,9 @@
+## Interface: 20400
+## Title: BoxHelper
+## Author: Hasn
+## Version: 100
+## X-Category: Combat
+## X-Embeds: Ace3
+## Dependencies: GTFO
+embeds.xml
+BoxHelper.lua
