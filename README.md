@@ -19,3 +19,5 @@ Simulates both a "not facing target" event and a "GTFO" event to briefly display
 
 "Not facing a target" is detected by reading messages in the error frame.  
 So it will only work when someone is trying to cast a spell and gets a "Target needs to be in front of you." message.
+
+Frames can be resized by clicking and dragging in the bottom right corner.
