@@ -267,12 +267,14 @@ function BoxHelper:UpdateNameListFrame(frame, nameList)
     local yOffset = -30;
     local height = 20;
 
-    if (frame["nameFontStrings"] == nil) then
-        frame["nameFontStrings"] = {} 
-    end
-
     for k, fontString in pairs(frame["nameFontStrings"]) do
         fontString:SetText("")
+    end
+
+    if next(nameList) == nil then
+        frame:SetBackdropColor(0.1, 0.1, 0.1)
+    else
+        frame:SetBackdropColor(0.5, 0, 0)
     end
 
     local i = 1;
